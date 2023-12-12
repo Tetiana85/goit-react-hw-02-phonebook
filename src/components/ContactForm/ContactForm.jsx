@@ -15,7 +15,7 @@ const contactSchema = Yup.object().shape({
     .required('Required'),
   number: Yup.number()
     .integer('Must be an integer')
-    .min(1000000, 'Must be at least 13 digits')
+    .min(1000000, 'Must be at least 7 digits')
     .max(9999999, 'Must be at most 13 digits')
     .required('Required'),
 });
