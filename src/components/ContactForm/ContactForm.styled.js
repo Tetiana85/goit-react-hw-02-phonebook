@@ -52,5 +52,5 @@ export const FormButton = styled.button`
 `;
 export const ErrorMessage = styled(FormikError)`
   font-size: 14;
-  color: #f76cb9;
+  color: #054040;
 `;
